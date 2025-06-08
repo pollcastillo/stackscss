@@ -1,0 +1,19 @@
+.hstack {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+
+    &.align-top { align-items: start; }
+    &.align-center { align-items: center; }
+    &.align-bottom { align-items: end; }
+
+    // Distribution
+
+    &.dist-left { justify-content: flex-start; }
+    &.dist-center { justify-content: center; }
+    &.dist-right { justify-content: flex-end; }
+    &.dist-space-between { justify-content: space-between; }
+    &.dist-space-evenly { justify-content: space-evenly; }
+    &.dist-space-around { justify-content: space-around; }
+}

@@ -1,0 +1,19 @@
+.vstack {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+
+    // alignment
+    &.align-left { align-items: start; }
+    &.align-center { align-items: center; }
+    &.align-right { align-items: end; }
+
+    // Distribution
+    &.dist-start { justify-content: flex-start; }
+    &.dist-center { justify-content: flex-center; }
+    &.dist-end { justify-content: flex-end; }
+    &.dist-space-between { justify-content: space-between; }
+    &.dist-space-evenly { justify-content: space-evenly; }
+    &.dist-space-around { justify-content: space-around; }
+}
