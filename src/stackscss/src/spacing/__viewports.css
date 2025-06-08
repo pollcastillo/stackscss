@@ -1,0 +1,8 @@
+/* Variante para pantallas pequeñas (móviles) */
+@media (max-width: 599px) {}
+
+/* Variante para pantallas medianas (tablets) */
+@media (min-width: 600px) and (max-width: 1023px) {}
+
+/* Variante para pantallas grandes (escritorio) */
+@media (min-width: 1024px) {}

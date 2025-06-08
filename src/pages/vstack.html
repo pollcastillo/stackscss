@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/svg+xml" href="../web.svg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacks Layout | Vertical Stacks</title>
+    <link rel="stylesheet" href="../stackscss/main.css">
+    <link rel="stylesheet" href="../icons/Fonts/regular/style.css">
+    <link rel="stylesheet" href="../icons/Fonts/duotone/style.css">
+    <link rel="stylesheet" href="../icons/Fonts/fill/style.css">
+    <link rel="stylesheet" href="../icons/Fonts/light/style.css">
+    <link rel="stylesheet" href="../icons/Fonts/regular/style.css">
+    <link rel="stylesheet" href="../icons/Fonts/thin/style.css">
+</head>
+
+<body>
+    <div class="viewport vstack gap-32 w-fill">
+        <frm class="vstack w-fill align-center distrib-center" id="header">
+            <nav class="hstack gap-16 w-fill distrib-center p-16 ignore-resp">
+                <a class="text-slate-400 hstack align-center distrib-center gap-8" href="../../../index.html"><i
+                        class="ph-duotone ph-house"></i> Home</a>
+                <a class="text-slate-800 hstack align-center distrib-center gap-8" href="./vstack.html"><i
+                        class="ph-duotone ph-rows"></i>
+                    Vertical Stacks</a>
+                <a class="text-slate-400 hstack distrib-center align-center gap-8" href="./hstack.html"><i
+                        class="ph-duotone ph-columns"></i> Horizontal
+                    Stacks</a>
+            </nav>
+
+
+        </frm>
+
+        <h1 class="hstack distrib-center align-center gap-16 w-fill text-center ignore-resp"><i
+                class="ph-duotone ph-rows"></i>
+            Vertical
+            Stacks
+        </h1>
+
+        <section class="w-fill vstack align-left">
+            <nav class="hstack gap-16 bg-slate-50 w-fill p-8 text-sm ignore-resp">
+                <a href="#alignment">Alignment</a>
+                <a href="#distribution">Distribution</a>
+                <a href="#">Self (working on)</a>
+            </nav>
+
+            <nav class="hstack gap-16 bg-slate-100 w-fill p-8 text-sm ignore-resp">
+                <a href="./vstack.html">As HTML Class</a>
+                <a href="#">As Mixin (working on)</a>
+            </nav>
+        </section>
+
+
+        <section class="vstack gap-16 w-fill p-32 md:p-8">
+            <h2 id="alignment">Alignment <a href="#header" class="text-xl"><i class="ph ph-arrow-up"></i></a></h2>
+
+            <section class="hstack distrib-space-evenly w-fill">
+                <div class="vstack align-center gap-8">
+                    <img src="../img/vstack/align/left.png" alt="left alignment" style="width: 64px;">
+                    <p>align-left</p>
+                </div>
+                <div class="vstack align-center gap-8">
+                    <img src="../img/vstack/align/center.png" alt="center alignment" style="width: 64px;">
+                    <p>align-center</p>
+                </div>
+                <div class="vstack align-center gap-8">
+                    <img src="../img/vstack/align/right.png" alt="right alignment" style="width: 64px;">
+                    <p>align-right</p>
+                </div>
+            </section>
+
+            <div class="vstack w-fill gap-8 p-16">
+                <p class="text-lg"><i class="ph-duotone ph-align-left text-slate-800"></i> Align left</p>
+                <code>vstack | align-left | w-fill</code>
+
+                <div class="vstack w-fill align-left bg-slate-100 p-16 border-round-xl">
+                    <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vstack w-fill gap-8 p-16 ">
+                <p class="text-lg"><i class="ph-duotone ph-align-center-horizontal text-slate-800"></i> Align Center</p>
+                <code>vstack | align-center | w-fill</code>
+
+                <div class="vstack w-fill align-center bg-slate-100 p-16 border-round-xl">
+                    <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vstack w-fill gap-8 p-16">
+                <p class="text-lg"><i class="ph-duotone ph-align-right text-slate-800"></i> Align Right</p>
+                <code>vstack | align-right | w-fill</code>
+
+                <div class="vstack w-fill align-right bg-slate-100 p-16 border-round-xl">
+                    <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="vstack gap-16 w-fill p-32">
+            <h2 id="distribution">Distribution <a href="#header" class="text-xl"><i class="ph ph-arrow-up"></i></a></h2>
+
+            <section class="hstack w-fill distrib-space-between">
+                <div class="vstack align-center gap-8">
+                    <img src="../img/vstack/distribute/start.png" alt="start distribution" style="width: 64px;">
+                    <p>distrib-start</p>
+                </div>
+                <div class="vstack align-center gap-8">
+                    <img src="../img/vstack/distribute/center.png" alt="start distribution" style="width: 64px;">
+                    <p>distrib-center</p>
+                </div>
+                <div class="vstack align-center gap-8">
+                    <img src="../img/vstack/distribute/end.png" alt="start distribution" style="width: 64px;">
+                    <p>distrib-end</p>
+                </div>
+                <div class="vstack align-center gap-8">
+                    <img src="../img/vstack/distribute/space-between.png" alt="start distribution" style="width: 64px;">
+                    <p>distrib-space-between</p>
+                </div>
+                <div class="vstack align-center gap-8">
+                    <img src="../img/vstack/distribute/space-around.png" alt="start distribution" style="width: 64px;">
+                    <p>distrib-space-around</p>
+                </div>
+                <div class="vstack align-center gap-8">
+                    <img src="../img/vstack/distribute/space-evenly.png" alt="start distribution" style="width: 64px;">
+                    <p>distrip-space-evenly</p>
+                </div>
+            </section>
+
+            <section class="hstack w-fill">
+                <div class="vstack w-fill gap-8 p-16">
+                    <p>Distribute to start</p>
+
+                    <div class="vstack w-fill align-left p-16 bg-slate-100 border-round-xl distrib-start"
+                        style="height: 100px;">
+                        <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vstack w-fill gap-8 p-16">
+                    <p>Distribute to Center</p>
+
+                    <div class="vstack w-fill align-left p-16 bg-slate-100 border-round-xl distrib-center"
+                        style="height: 100px;">
+                        <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vstack w-fill gap-8 p-16 ">
+                    <p>Distribute to End</p>
+
+                    <div class="vstack w-fill distrib-end p-16 bg-slate-100 border-round-xl" style="height: 100px;">
+                        <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="hstack w-fill">
+                <div class="vstack w-fill gap-8 p-16">
+                    <p>Distribute to Space Between</p>
+
+                    <div class="vstack w-fill align-left p-16 bg-slate-100 border-round-xl distrib-space-between"
+                        style="height: 150px;">
+                        <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i></div>
+                        <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i></div>
+                    </div>
+                </div>
+
+                <div class="vstack w-fill gap-8 p-16">
+                    <p>Distribute to Space Around</p>
+
+                    <div class="vstack w-fill align-left p-16 bg-slate-100 border-round-xl distrib-space-around"
+                        style="height: 150px;">
+                        <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i></div>
+                        <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i></div>
+                    </div>
+                </div>
+
+                <div class="vstack w-fill gap-8 p-16 ">
+                    <p>Distribute to Space Evenly</p>
+
+                    <div class="vstack w-fill distrib-space-evenly p-16 bg-slate-100 border-round-xl"
+                        style="height: 150px;">
+                        <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i></div>
+                        <div class="hstack align-center distrib-center"><i class="ph-duotone ph-cat text-3xl"></i></div>
+                    </div>
+                </div>
+            </section>
+
+
+
+        </section>
+    </div>
+</body>
+
+</html>

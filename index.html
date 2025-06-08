@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/svg+xml" href="./web.svg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacks Layout</title>
+    <link rel="stylesheet" href="./src/stackscss/main.css">
+    <link rel="stylesheet" href="./src/icons/Fonts/regular/style.css">
+    <link rel="stylesheet" href="./src/icons/Fonts/duotone/style.css">
+    <link rel="stylesheet" href="./src/icons/Fonts/fill/style.css">
+    <link rel="stylesheet" href="./src/icons/Fonts/light/style.css">
+    <link rel="stylesheet" href="./src/icons/Fonts/regular/style.css">
+    <link rel="stylesheet" href="./src/icons/Fonts/thin/style.css">
+</head>
+
+<body>
+    <div class="content vstack p-32 gap-32 w-fill">
+        <nav class="hstack distrib-space-around w-fill distrib-center p-8">
+            <div class="hstack gap-16">
+                <a href="index.html">Home</a>
+                <a href="./src/pages/vstack.html">Vertical Stacks</a>
+                <a href="./src/pages/hstack.html">Horizontal Stacks</a>
+            </div>
+        </nav>
+
+        <section class="vstack gap-4">
+            <h1 class="text-4xl">Vertical and horizontal stacks</h1>
+            <p class="text-xl">Use cases and others</p>
+        </section>
+
+        <h2>Use cases</h2>
+
+        <section class="vstack gap-16 w-fill">
+            <h3>User profile</h3>
+
+            <frm class="hstack gap-8 bg-slate-900 w-fill align-center p-8 border-round-xl">
+                <graph class="profile-circle bg-slate-400"></graph>
+
+                <frm class="vstack w-fill distrib-center bg-slate-200">
+                    <p class="text-xl">Jhon Doe</p>
+                    <p class="text-sm">UX Developer</p>
+                </frm>
+            </frm>
+
+            <p>Using:</p>
+
+            <div class="vstack gap-8">
+                <h5>Estructura</h5>
+                <ol class="vstack gap-16">
+                    <li>
+                        primer contenedor
+                        <ul>
+                            <li><code>hstack:</code> horizontal stack</li>
+                            <li><code>gap-8:</code> espacio de 8px entre objetos</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        contenedor de texto
+                        <ul>
+                            <li><code>vstack:</code> horizontal stack</li>
+                            <li><code>w-fill:</code> espacio de 8px entre objetos</li>
+                            <li><code>w-distrib-center:</code> distribuye los objetos al centro verticalmente</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

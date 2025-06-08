@@ -1,0 +1,136 @@
+html {
+    font-size: 14px;
+    /* 1rem = 16px */
+}
+
+body {
+    font-size: 1rem;
+    /* 16px */
+}
+
+p {
+    font-size: 1rem;
+    /* texto base */
+}
+
+small {
+    font-size: 0.875rem;
+    /* texto pequeño */
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.text-xs {
+    font-size: 0.65rem;
+    line-height: 0.85rem;
+}
+
+/* más pequeño que xs estándar */
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+/* estándar */
+.text-md {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* tamaño base */
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+/* estándar */
+.text-xl {
+    font-size: 1.375rem;
+    line-height: 1.9rem;
+}
+
+/* nuevo valor entre lg y 2xl */
+.text-2xl {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+/* estándar */
+.text-3xl {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+}
+
+/* estándar */
+.text-4xl {
+    font-size: 2.75rem;
+    line-height: 3rem;
+}
+
+/* nuevo valor entre 3xl y 5xl */
+.text-5xl {
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+/* estándar */
+.text-6xl {
+    font-size: 4.25rem;
+    line-height: 1;
+}
+
+/* nuevo valor entre 5xl y 7xl */
+.text-7xl {
+    font-size: 5rem;
+    line-height: 1;
+}
+
+/* estándar */
+.text-8xl {
+    font-size: 6.5rem;
+    line-height: 1;
+}
+
+/* nuevo valor entre 7xl y 9xl */
+.text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+}
+
+/* estándar */
+.text-10xl {
+    font-size: 10rem;
+    line-height: 1;
+}
+
+/* nuevo valor extra grande */
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

@@ -1,0 +1,16 @@
+.w-fit,
+[width="fit"] {
+    width: fit-content;
+}
+
+.w-fill,
+[width="fill"],
+.w-full,
+[width="full"] {
+    width: 100%;
+}
+
+.w-fixed,
+[width="fixed"] {
+    width: min-content;
+}

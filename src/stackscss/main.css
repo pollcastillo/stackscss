@@ -1,0 +1,37 @@
+@import url("./src/_variables.css");
+@import url("./src/_reset.css");
+@import url("./src/_colors.css");
+
+/* stacks */
+@import url("./src/stacks/_vstacks.css");
+@import url("./src/stacks/_hstacks.css");
+
+/* utilities */
+@import url("./src/utils/_system.css");
+@import url("./src/utils/_shapes.css");
+@import url("./src/utils/_border_radius.css");
+
+/* sizing */
+@import url("./src/sizing/_widths.css");
+@import url("./src/sizing/_heights.css");
+
+/* spacing */
+@import url("./src/spacing/_gaps.css");
+@import url("./src/spacing/_paddings.css");
+@import url("./src/spacing/_margins.css");
+
+/* fonts */
+@import url("./src/fonts/_size.css");
+
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrapreverse {
+    flex-wrap: wrap-reverse;
+}

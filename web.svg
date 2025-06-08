@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="379px" height="379px" viewBox="0 0 379 379" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>export/web</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.8881358%" id="linearGradient-1">
+            <stop stop-color="#9B73FF" offset="0%"></stop>
+            <stop stop-color="#6E42DA" offset="100%"></stop>
+        </linearGradient>
+        <path d="M24,0 L355,0 C368.254834,-3.55271368e-15 379,10.745166 379,24 L379,355 C379,368.254834 368.254834,379 355,379 L24,379 C10.745166,379 0,368.254834 0,355 L0,24 C0,10.745166 10.745166,0 24,0 Z" id="path-2"></path>
+        <path d="M0,0 L318,0 L318,232 L0,232 L0,0 Z" id="path-3"></path>
+        <path d="M0,0 L318,0 L318,96 L0,96 L0,0 Z" id="path-4"></path>
+        <path d="M0,0 L318,0 L318,96 L0,96 L0,0 Z" id="path-5"></path>
+    </defs>
+    <g id="export/web" stroke="none" fill="none" xlink:href="#path-2" fill-rule="evenodd">
+        <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+        <g id="Web" transform="translate(31, 74)" xlink:href="#path-3">
+            <g id="bottom" transform="translate(0, 136)" xlink:href="#path-4">
+                <rect id="Rectangle-Copy-3" fill="#A1DD46" x="0" y="74" width="318" height="22" rx="11"></rect>
+                <rect id="Rectangle-Copy-2" stroke="#D0D0D0" stroke-width="8" fill="#FFFFFF" x="40" y="4" width="238" height="50" rx="11"></rect>
+            </g>
+            <g id="top" xlink:href="#path-5">
+                <rect id="Rectangle-Copy" stroke="#D0D0D0" stroke-width="8" fill="#FFFFFF" x="40" y="42" width="238" height="50" rx="11"></rect>
+                <rect id="Rectangle" fill="#A1DD46" x="0" y="0" width="318" height="22" rx="11"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
