@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stacks Layout</title>
     <link rel="stylesheet" href="./src/stackscss/main.css">
+    <link rel="stylesheet" href="./page_styles/main.css">
     <link rel="stylesheet" href="./src/icons/Fonts/regular/style.css">
     <link rel="stylesheet" href="./src/icons/Fonts/duotone/style.css">
     <link rel="stylesheet" href="./src/icons/Fonts/fill/style.css">
@@ -20,8 +21,7 @@
 
         <div class="hstack w-fill align-center dist-center" id="header">
             <nav class="hstack gap-16 w-fill dist-center p-16 ignore-resp">
-                <a class="text-slate-800 hstack align-center dist-center gap-8" href="./"><i
-                        class="ph-duotone ph-house"></i> Home</a>
+                <a class="text-slate-800 hstack align-center dist-center gap-8" href="./"><i class="ph-duotone ph-house"></i> Home</a>
                 <a class="text-slate-800 hstack align-center dist-center gap-8" href="./src/pages/vstack.html"> <i
                         class="ph-duotone ph-rows"></i> Vertical Stacks</a>
                 <a class="text-slate-800 hstack align-center dist-center gap-8" href="./src/pages/hstack.html"> <i
@@ -39,14 +39,16 @@
         <section class="vstack gap-16 w-fill p-32 md:p-16 sm:p-8">
             <h3>User profile</h3>
 
-            <frm class="hstack gap-8 bg-slate-900 w-fill align-center p-8 border-round-xl">
-                <graph class="profile-circle bg-slate-500"></graph>
+            <div class="user-badge hstack gap-16 p-8">
+                <div class="user-photo vstack h-fill cross-center">
+                    <i class="ph ph-user"></i>
+                </div>
 
-                <frm class="vstack w-fill dist-center align-center gap-2">
-                    <p class="text-xl bg-slate-200 w-full">Jhon Doe</p>
-                    <p class="text-sm bg-slate-200 w-full">UX Developer</p>
-                </frm>
-            </frm>
+                <div class="user-info vstack">
+                    <p class="user-name" id="username-badge">John Doe</p>
+                    <p class="user-profession">UX Designer</p>
+                </div>
+            </div>
 
             <p>Using:</p>
 

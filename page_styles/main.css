@@ -1,0 +1,18 @@
+.user-badge {
+    background-color: gray;
+    width: 500px;
+    border-radius: 2px;
+    height: 48px;
+}
+
+.user-photo {
+    background-color: white;
+    color: black;
+    width: 35px;
+    border-radius: 4px;
+}
+
+.cross-center {
+    align-items: center;
+    justify-content: center;
+}

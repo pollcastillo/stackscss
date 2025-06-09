@@ -1,0 +1,323 @@
+.vstack {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+}
+.vstack.align-left {
+  align-items: start;
+}
+.vstack.align-center {
+  align-items: center;
+}
+.vstack.align-right {
+  align-items: end;
+}
+.vstack.dist-start {
+  justify-content: flex-start;
+}
+.vstack.dist-center {
+  justify-content: flex-center;
+}
+.vstack.dist-end {
+  justify-content: flex-end;
+}
+.vstack.dist-space-between {
+  justify-content: space-between;
+}
+.vstack.dist-space-evenly {
+  justify-content: space-evenly;
+}
+.vstack.dist-space-around {
+  justify-content: space-around;
+}
+.hstack {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+}
+.hstack.align-top {
+  align-items: start;
+}
+.hstack.align-center {
+  align-items: center;
+}
+.hstack.align-bottom {
+  align-items: end;
+}
+.hstack.dist-left {
+  justify-content: flex-start;
+}
+.hstack.dist-center {
+  justify-content: center;
+}
+.hstack.dist-right {
+  justify-content: flex-end;
+}
+.hstack.dist-space-between {
+  justify-content: space-between;
+}
+.hstack.dist-space-evenly {
+  justify-content: space-evenly;
+}
+.hstack.dist-space-around {
+  justify-content: space-around;
+}
+/* sizing */
+.w-fit {
+  width: fit-content;
+}
+.w-fill {
+  width: 100%;
+}
+.w.w-fixed {
+  width: min-content;
+}
+.h-fill {
+  height: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
+.h-max {
+  height: max-content;
+}
+.h-min {
+  height: min-content;
+}
+/* spacing */
+.gap-2 {
+  gap: 2px;
+}
+.gap-4 {
+  gap: 4px;
+}
+.gap-6 {
+  gap: 6px;
+}
+.gap-8 {
+  gap: 8px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-12 {
+  gap: 12px;
+}
+.gap-14 {
+  gap: 14px;
+}
+.gap-16 {
+  gap: 16px;
+}
+.gap-17 {
+  gap: 17px;
+}
+.gap-24 {
+  gap: 24px;
+}
+.gap-32 {
+  gap: 32px;
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-48 {
+  gap: 48px;
+}
+.gap-56 {
+  gap: 56px;
+}
+.gap-64 {
+  gap: 64px;
+}
+.gap-72 {
+  gap: 72px;
+}
+.gap-80 {
+  gap: 80px;
+}
+.gap-88 {
+  gap: 88px;
+}
+.gap-96 {
+  gap: 96px;
+}
+@media (max-width: 599px) {
+  .sm\:gap-2 {
+    gap: 2px;
+  }
+  .sm\:gap-4 {
+    gap: 4px;
+  }
+  .sm\:gap-6 {
+    gap: 6px;
+  }
+  .sm\:gap-8 {
+    gap: 8px;
+  }
+  .sm\:gap-10 {
+    gap: 10px;
+  }
+  .sm\:gap-12 {
+    gap: 12px;
+  }
+  .sm\:gap-14 {
+    gap: 14px;
+  }
+  .sm\:gap-16 {
+    gap: 16px;
+  }
+  .sm\:gap-17 {
+    gap: 17px;
+  }
+  .sm\:gap-24 {
+    gap: 24px;
+  }
+  .sm\:gap-32 {
+    gap: 32px;
+  }
+  .sm\:gap-40 {
+    gap: 40px;
+  }
+  .sm\:gap-48 {
+    gap: 48px;
+  }
+  .sm\:gap-56 {
+    gap: 56px;
+  }
+  .sm\:gap-64 {
+    gap: 64px;
+  }
+  .sm\:gap-72 {
+    gap: 72px;
+  }
+  .sm\:gap-80 {
+    gap: 80px;
+  }
+  .sm\:gap-88 {
+    gap: 88px;
+  }
+  .sm\:gap-96 {
+    gap: 96px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  .md\:gap-2 {
+    gap: 2px;
+  }
+  .md\:gap-4 {
+    gap: 4px;
+  }
+  .md\:gap-6 {
+    gap: 6px;
+  }
+  .md\:gap-8 {
+    gap: 8px;
+  }
+  .md\:gap-10 {
+    gap: 10px;
+  }
+  .md\:gap-12 {
+    gap: 12px;
+  }
+  .md\:gap-14 {
+    gap: 14px;
+  }
+  .md\:gap-16 {
+    gap: 16px;
+  }
+  .md\:gap-17 {
+    gap: 17px;
+  }
+  .md\:gap-24 {
+    gap: 24px;
+  }
+  .md\:gap-32 {
+    gap: 32px;
+  }
+  .md\:gap-40 {
+    gap: 40px;
+  }
+  .md\:gap-48 {
+    gap: 48px;
+  }
+  .md\:gap-56 {
+    gap: 56px;
+  }
+  .md\:gap-64 {
+    gap: 64px;
+  }
+  .md\:gap-72 {
+    gap: 72px;
+  }
+  .md\:gap-80 {
+    gap: 80px;
+  }
+  .md\:gap-88 {
+    gap: 88px;
+  }
+  .md\:gap-96 {
+    gap: 96px;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:gap-2 {
+    gap: 2px;
+  }
+  .lg\:gap-4 {
+    gap: 4px;
+  }
+  .lg\:gap-6 {
+    gap: 6px;
+  }
+  .lg\:gap-8 {
+    gap: 8px;
+  }
+  .lg\:gap-10 {
+    gap: 10px;
+  }
+  .lg\:gap-12 {
+    gap: 12px;
+  }
+  .lg\:gap-14 {
+    gap: 14px;
+  }
+  .lg\:gap-16 {
+    gap: 16px;
+  }
+  .lg\:gap-17 {
+    gap: 17px;
+  }
+  .lg\:gap-24 {
+    gap: 24px;
+  }
+  .lg\:gap-32 {
+    gap: 32px;
+  }
+  .lg\:gap-40 {
+    gap: 40px;
+  }
+  .lg\:gap-48 {
+    gap: 48px;
+  }
+  .lg\:gap-56 {
+    gap: 56px;
+  }
+  .lg\:gap-64 {
+    gap: 64px;
+  }
+  .lg\:gap-72 {
+    gap: 72px;
+  }
+  .lg\:gap-80 {
+    gap: 80px;
+  }
+  .lg\:gap-88 {
+    gap: 88px;
+  }
+  .lg\:gap-96 {
+    gap: 96px;
+  }
+}
