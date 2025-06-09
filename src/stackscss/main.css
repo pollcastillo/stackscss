@@ -665,6 +665,13 @@ a:hover {
     gap: 96px;
   }
 }
+.spacer,
+spacer,
+[spacer] {
+  display: inline-block;
+  height: 0;
+  width: 100%;
+}
 .p-2 {
   padding: 2px;
 }
