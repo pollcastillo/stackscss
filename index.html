@@ -6,8 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stacks Layout</title>
+
+    <!-- Styles -->
     <link rel="stylesheet" href="./src/stackscss/main.css">
     <link rel="stylesheet" href="./page_styles/main.css">
+    
+    <!-- Phosphor Icons -->
     <link rel="stylesheet" href="./src/icons/Fonts/regular/style.css">
     <link rel="stylesheet" href="./src/icons/Fonts/duotone/style.css">
     <link rel="stylesheet" href="./src/icons/Fonts/fill/style.css">
@@ -16,30 +20,34 @@
     <link rel="stylesheet" href="./src/icons/Fonts/thin/style.css">
 </head>
 
-<body>
-    <div class="content vstack gap-32 w-fill">
+<body debug>
+    <div class="content vstack spacing-32 w-fill cross-center">
 
-        <div class="hstack w-fill align-center dist-center" id="header">
-            <nav class="hstack gap-16 w-fill dist-center p-16 ignore-resp">
-                <a class="text-slate-800 hstack align-center dist-center gap-8" href="./"><i class="ph-duotone ph-house"></i> Home</a>
-                <a class="text-slate-800 hstack align-center dist-center gap-8" href="./src/pages/vstack.html"> <i
+        <div class="hstack w-fill cross-center" id="header">
+            <nav class="hstack spacing-16 w-fill p-16 ignore-resp">
+                <a class="text-slate-800 hstack align-center dist-center spacing-8" href="./">
+                    <i class="ph-duotone ph-house"></i> 
+                    Home
+                </a>
+
+                <a class="text-slate-800 hstack spacing-8" href="./src/pages/vstack.html"> <i
                         class="ph-duotone ph-rows"></i> Vertical Stacks</a>
-                <a class="text-slate-800 hstack align-center dist-center gap-8" href="./src/pages/hstack.html"> <i
+                <a class="text-slate-800 hstack align-center dist-center spacing-8" href="./src/pages/hstack.html"> <i
                         class="ph-duotone ph-columns"></i>Horizontal Stacks</a>
             </nav>
         </div>
 
-        <section class="vstack gap-4 w-fill">
+        <section class="vstack spacing-4 w-fill">
             <h1 class="text-center w-fill">Stacks</h1>
             <p class="text-center">Vertical and Horizontal Stacks</p>
         </section>
 
         <h2>Use cases</h2>
 
-        <section class="vstack gap-16 w-fill p-32 md:p-16 sm:p-8">
+        <section class="vstack spacing-16 w-fill p-32 md:p-16 sm:p-8">
             <h3>User profile</h3>
 
-            <div class="user-badge hstack gap-16 p-8">
+            <div class="user-badge hstack spacing-16 p-8">
                 <div class="user-photo vstack h-fill cross-center">
                     <i class="ph ph-user"></i>
                 </div>
@@ -52,14 +60,14 @@
 
             <p>Using:</p>
 
-            <div class="vstack gap-8 p-32 md:p-16 sm:p-2">
+            <div class="vstack spacing-8 p-32 md:p-16 sm:p-2">
                 <h5>Estructura</h5>
-                <ol class="vstack gap-16">
+                <ol class="vstack spacing-16">
                     <li>
                         primer contenedor
                         <ul class="pl-32">
                             <li><code>hstack:</code> horizontal stack</li>
-                            <li><code>gap-8:</code> espacio de 8px entre objetos</li>
+                            <li><code>spacing-8:</code> espacio de 8px entre objetos</li>
                         </ul>
                     </li>
 
